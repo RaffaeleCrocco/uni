@@ -1,0 +1,41 @@
+/* nascondere la scrollbar */
+html::-webkit-scrollbar {
+    display: none;
+}
+html{
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+
+App{
+    font-family: 'Inter', sans-serif;
+
+     //impedire la selezione del testo
+     -webkit-touch-callout: none; /* iOS Safari */
+       -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+          -moz-user-select: none; /* Old versions of Firefox */
+           -ms-user-select: none; /* Internet Explorer/Edge */
+               user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+
+}
+
+.tag{
+    font-size: small;
+    font-weight: normal;
+    padding: 3px 10px 3px 10px;
+    border-radius: 3px !important;
+    border: 1px solid rgb(92, 92, 92);
+    color: rgb(92, 92, 92) !important;
+
+    .badge{
+        font-size: 10px !important;
+        background-color: rgb(68, 68, 68) !important;
+        border-radius: 3px !important;
+        margin-left: 3px;
+        color: rgb(255, 255, 255) !important;
+    }
+    
+}
