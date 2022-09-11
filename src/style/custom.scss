@@ -1,11 +1,16 @@
 /* This file is used for change the preset of react-bootstrap */
 $primary: #161616;
+$success: #087aed;
+
 .accordion-button{background-color: rgb(255, 255, 255) !important; font-weight: bold !important}
 .accordion-button:focus {
     box-shadow: none !important;
+    
 }
 
+
 .accordion-button::after{
+    display: none;
     margin-left: 20px !important;
 }
 

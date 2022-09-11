@@ -6,7 +6,7 @@ const Navigation = () => {
         <div>
             <Navbar fixed="top" collapseOnSelect expand="lg" style={{background: "#000000"}} variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">ESSE3.1 &nbsp; Ingegneria informatica</Navbar.Brand>
+                    <Navbar.Brand href="#home">ESSE4 &nbsp; Ingegneria informatica</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
